@@ -9,7 +9,7 @@ PennKey (e.g., taliem):
 
 
 # Part 2:
-## What are the worst case (Big O) and best case (Big Ω) times for snippets C and D?
+## What are the Big O and Big Ω times for snippets C and D?
 
 
 ## When measuring actual runtime, does one of the snippets run faster than the other? In what situations? Why do you think this is the case?
@@ -40,12 +40,12 @@ Your report should answer the following questions:
 
 
 # Part 4
-## What is the worst case (Big O) and best case (Big Ω) time for Javier's algorithm? What are the worst case (Big O) and best case (Big Ω) space use?
+## What is the Big O and Big Ω time for Javier's algorithm? What is the Big O and Big Ω for space use?
 
 
 ## Write a paragraph or two in the style of a technical report (think about – how would I write this professionally if I needed to explain my findings to my manager?). 
 Your report should answer the following questions:
 * Which of the two algorithms is more efficient in time and space (in terms of Big O)
-    * What about in actual runtime and space (using the profiler)
+    * What about in actual runtime
 * Which implementation do you suggest should be used? Are there certain situations that might call for the other approach?
 
