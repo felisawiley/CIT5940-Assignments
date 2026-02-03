@@ -50,7 +50,7 @@ public class FindFirstInstance {
         
         
         // uncomment one of the grids below to test the methods
-        // int[][] grid = getGridOne();
+        int[][] grid = getGridOne();
         // int[][] grid = getGridTwo();
         
         int target = 5;
@@ -58,12 +58,11 @@ public class FindFirstInstance {
         long start = System.nanoTime(); // start testing runtime
 
         // uncomment one of the methods below to test it
-        // findFirstInstanceOne(grid, target);
+        findFirstInstanceOne(grid, target);
         // findFirstInstanceTwo(grid, target);
 
         long end = System.nanoTime(); // end testing runtime
-
-        System.out.println("Run time was " + (end - start) / 1000000.0 + " milliseconds." ); // print runtime
+        System.out.println("Run time was " + (end - start) / 1000000.0 + " milliseconds." );
 
     }
 
@@ -78,8 +77,5 @@ public class FindFirstInstance {
         grid[3999][3999] = 5;
         return grid;
     }
-
-
-
 
 }
